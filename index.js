@@ -5,8 +5,8 @@ const UUID = process.env.UUID || 'e2fd14d6-7926-48d7-9452-d5288bb52e0f';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.cn';      // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'trydome.ohyo.dedyn.io';              // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"e8e6c62bc0e4191abae77c7222210ae7","TunnelSecret":"c0A28K72VD5m3U9b4m6vBrEPbnVtpAy/0iW8uiFuF/0=","TunnelID":"ca823534-06c6-4ac0-adfa-27e9da55c0d3"}';                 // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'trydome.google.cloudns.biz';              // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"e8e6c62bc0e4191abae77c7222210ae7","TunnelSecret":"TwfiojOLSeLIi1YHCFWOTai90B83JPSACQSufWh03T4=","TunnelID":"fce28d04-2e9a-400c-b37c-b04a33528492"}';                 // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'www.visa.com.tw';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'trydome';                     // 节点名称
